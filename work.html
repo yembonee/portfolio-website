@@ -1,96 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Oluyemi's Projects</title>
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon-32x32-contact.png">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="img/favicon-32x32-contact.png"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Header including the logo and the main navigation -->
 
     <header class="page-header">
-           <!-- Add Logo here -->
-        <img class="page-header__item" src="img/logo.png" width="200" height="70" alt="Logo">
-        <nav class="page-header__item">
-            <ul role="menubar" class="navigation-list">
-              <li role="presentation">
-                <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-              </li>
-              <li role="presentation">
-                <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
-              </li>
-              <li role="presentation">
-                <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-              </li>
-              <li role="presentation">
-                <a href="work.html"  role="menuitem" class="navigation-list__item  navigation-list__item--active">Work</a>
-              </li>
-            </ul>
-        </nav>
+      <!-- Add Logo here -->
+      <img
+        class="page-header__item"
+        src="img/logo.png"
+        width="200"
+        height="70"
+        alt="Logo"
+      />
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About Me</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Work</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main content -->
 
     <section>
-        <h1 class="work-tag">Work and Projects</h1>
-        <div class="projects">
-            <div class="project__item">
-                <h2>Pokedex Project</h2>
-                <p>
-                    This is one of my first JS projects, using the PokeAPI, the project is a Pokemon Index (Pokedex), that shows off a modal when a pokemon's name is clicked.
-                </p>
-                <a href="https://github.com/yembonee/simple-js-app">See on Github</a>
-            </div>
-            <div class="project__item">
-                <h2>Project 2</h2>
-                <p>
-                    This is a template for when I have projects to show off. This will be linked to the said Project in my GitHub profile.
-                </p>
-                <a href="#">See on Github</a>
-            </div>
-            <div class="project__item">
-                <h2>Project 3</h2>
-                <p>
-                    This is a template for when I have projects to show off. This will be linked to the said Project in my GitHub profile.
-                </p>
-                <a href="#">See on Github</a>
-            </div>
-            <div class="project__item">
-                <h2>Project 4</h2>
-                <p>
-                    This is a template for when I have projects to show off. This will be linked to the said Project in my GitHub profile.
-                </p>
-                <a href="#">See on Github</a>
-            </div>
+      <h1 class="work-tag">Work and Projects</h1>
+      <div class="projects">
+        <div class="project__item">
+          <div style="width: 700px">
+            <h2>Pokedex Project</h2>
+            <p>
+              This is one of my first JS projects, using the PokeAPI, the
+              project is a Pokemon Index (Pokedex), that shows off a modal when
+              a pokemon's name is clicked. The modal portrays the pokemon's
+              statistics. Not too in-depth as of now, mainly just height,
+              weight, and type.
+            </p>
+            <a
+              style="text-decoration: none"
+              href="https://github.com/yembonee/simple-js-app"
+              >See on Github</a
+            >
+            <br />
+            <a
+              style="text-decoration: none"
+              href="https://yembonee.github.io/simple-js-app/"
+              >See Hosted App</a
+            >
+          </div>
+          <div>
+            <img src="img/Screenshot 2024-01-04 141618.png" height="300" />
+          </div>
         </div>
+        <div class="project__item">
+          <div style="width: 700px">
+            <h2>Movie Api Project</h2>
+            <p>
+              This Project is the core API being used for the Movie Client
+              project I made. Everything in this API was made from scratch and
+              used Node, Postman, and MongoDB for the creation and usage of the
+              API.
+            </p>
+            <a
+              style="text-decoration: none"
+              href="https://github.com/yembonee/movie-api-project"
+              >See on Github</a
+            >
+          </div>
+        </div>
+        <div class="project__item">
+          <div style="width: 700px">
+            <h2>Movie Client Project</h2>
+            <p>
+              This is the client side portion of the API I had made previously.
+              This site will allow users to login/signup and see a number of
+              movies to interact with. Users will be able to add/remove a movie
+              from their favorites. As well as see further detail on each movie
+              such as the director, genre, and description.
+            </p>
+            <a
+              href="https://github.com/yembonee/myFlix-client"
+              style="text-decoration: none"
+              >See on Github</a
+            >
+            <br />
+            <a
+              style="text-decoration: none"
+              href="https://loquacious-gaufre-5f35f2.netlify.app/login"
+              >See Hosted App</a
+            >
+          </div>
+          <div>
+            <img src="img/Screenshot 2024-01-04 141303.png" height="300" />
+          </div>
+        </div>
+        <div class="meet-item">
+          <div class="meet-info" style="width: 700px">
+            <h2>Meet Calendar App</h2>
+            <p>
+              This project's goal was to use Google's Calendar API to display a
+              number of events that are at different locations that use
+              different languages and libraries/frameworks. This site also uses
+              graphs to further display the proper information about the events'
+              statistics. This site uses React as the main library, as well as
+              using AWS Lambda for the cloud service provider.
+            </p>
+            <a
+              href="https://github.com/yembonee/meet"
+              style="text-decoration: none"
+              >See on Github</a
+            >
+            <br />
+            <a
+              href="https://yembonee.github.io/meet/"
+              style="text-decoration: none"
+              >See Hosted App</a
+            >
+          </div>
+          <div class="meet-img">
+            <img src="img/Screenshot 2024-01-04 133741.png" height="300" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer with links to social media profiles -->
 
     <footer class="page-footer">
-        <p>Find me on</p>
-        <div class="social-media">
-            <a href="https://github.com/yembonee" target="_blank">
-                <img id="github" src="img/github.svg" width="32" height="32" alt="Github">
-            </a>
-            <a href="https://twitter.com/yembone_" target="_blank">
-                <img id="twitter" src="img/twitter.svg" width="32" height="32" alt="Twitter">
-            </a>
-            <a href="https://www.linkedin.com/in/oluyemi-idowu-749925244/" target="_blank">
-                <img id="linkedin" src="img/linkedin.svg" width="32" height="32" alt="LinkedIn">
-            </a>
-        </div>
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://github.com/yembonee" target="_blank">
+          <img
+            id="github"
+            src="img/github.svg"
+            width="32"
+            height="32"
+            alt="Github"
+          />
+        </a>
+        <a href="https://www.instagram.com/yemboneee/" target="_blank">
+          <img
+            id="instagram"
+            src="img/iconmonstr-instagram-11.png"
+            width="32"
+            height="32"
+            alt="Instagram"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/oluyemi-idowu-749925244/"
+          target="_blank"
+        >
+          <img
+            id="linkedin"
+            src="img/linkedin.svg"
+            width="32"
+            height="32"
+            alt="LinkedIn"
+          />
+        </a>
+      </div>
     </footer>
-    
+
     <script src="js/tota11y.min.js"></script>
-</body>
+  </body>
 </html>
